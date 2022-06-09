@@ -1,0 +1,45 @@
+<footer>
+  <style>
+   footer {margin-top:40px}
+ * {box-sizing: border-box;}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  margin: 10px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+</style>
+</head>
+
+<h2>Music to my ears</h2>
+<style> h2 {font-family: 'Permanent Marker'; font-size: 25px} </style>
+
+<div class="row">
+  <div class="column" style="background-color:#FFFFFF;">
+    <h3> Chi siamo </h3>
+    <p> Music To My Ears è un sito di <br> Sofia Cortucci e Marta Campisi </p>
+    <p> <a class="doc" href="documentazione">documentazione</a></li> </p>
+  </div>
+  <style> a {font-family:'Josefin Sans', sans-serif; color: #000000}
+          a:hover {text-decoration: underline; }
+          a:active {text-decoration: underline;}
+   </style>
+  <div class="column" style="background-color:#FFFFFF;">
+    <h3>Contatti</h3>
+    <p> sofia.cortucci@studio.unibo.it</p>
+    <p> marta.campisi3@studio.unibo.it</p>
+  </div>
+  <div class="column" style="background-color:#FFFFFF;">
+    <h3> Seguici</h3>
+    <p> Facebook</p>
+    <p> Instagrm</p>
+    <p> Spotify</p>
+  </div>
+</div>
+<style> .column {font-family:'Josefin Sans', sans-serif;}</style>
+</footer>
