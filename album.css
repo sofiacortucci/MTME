@@ -1,0 +1,159 @@
+      main {
+          background-image: url("img/sfondoviola1.jpg");
+          background-color: #cccccc;
+          background-size: 100%;
+      }
+
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: white;
+          font-family: 'Josefin Sans', sans-serif;
+      }
+
+      li {
+          float: left;
+          border-right: 0px solid #bbb;
+      }
+
+      li:last-child {
+          border-right: none;
+      }
+
+      li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+          background-color: white;
+      }
+
+      .active {
+          background-color: white;
+      }
+
+      .fa {
+          font-size: 30px;
+          text-decoration: none;
+          margin: 10px 5px;
+      }
+
+      .fa-instagram {
+          background: white;
+          color: #000000;
+      }
+
+      .fa-facebook {
+          background: white;
+          color: #000000;
+      }
+
+      .fa-rss {
+          background: white;
+          color: #000000;
+      }
+
+      h1 {
+          text-align: center;
+          font-family: 'Permanent Marker';
+          font-size: 75px
+      }
+
+      .item {
+          margin-top: 20%;
+          margin-right: 20%;
+          margin-left: 20%;
+          margin-bottom: 10%;
+      }
+
+      .card {
+          margin-left: 7%;
+          margin-right: 7%;
+          margin-bottom: 20px;
+          background-color: white;
+          border-radius: 10px;
+        padding: 5px;
+      }
+
+      h5 {
+          font-family: 'Josefin Sans', sans-serif;
+          text-decoration: underline;
+      }
+
+      p {
+          font-family: 'Josefin Sans', sans-serif;
+      }
+
+      footer {
+          margin-top: 20px;
+          margin-left: 2em;
+      }
+
+      * {
+          box-sizing: border-box;
+      }
+
+      /* Create three equal columns that floats next to each other */
+      .col {
+          float: left;
+          width: 10%;
+          margin: 10px;
+          padding: 10px, 10px, 10px, 10px;
+          font-family: 'Josefin Sans', sans-serif;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+
+      footer {
+          margin-top: 20px;
+          margin-left: 2em;
+      }
+
+      * {
+          box-sizing: border-box;
+      }
+
+      h4 {
+          text-decoration: underline;
+          text-align: left;
+      }
+
+      p {
+          text-align: left;
+          font-size: 14px
+      }
+
+      a {
+          font-family: 'Josefin Sans', sans-serif;
+          color: #000000
+      }
+
+      a:hover {
+          text-decoration: underline;
+      }
+
+      a:active {
+          text-decoration: underline;
+      }
+
+      h3 {
+          font-family: 'Permanent Marker';
+          font-size: 25px
+      }
+
+      .art-img {
+          display: block;
+          margin: auto;
+          max-width: 300px !important;
+      }
